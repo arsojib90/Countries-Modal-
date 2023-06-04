@@ -1,0 +1,21 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.sojib{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: brown;
+}
+.country{
+    border: 3px solid goldenrod;
+    background-color: rgb(170, 231, 211);
+    border-radius: 20px;
+    padding: 20px;
+}
+.country img{
+    width: 200px;
+}
